@@ -1,0 +1,109 @@
+-- simple user data
+{
+  "userId": 401,
+  "name": "Alex Johnson",
+  "age": 28,
+  "gender": "Male",
+  "email": "alex.johnson@example.com",
+  "phone": "+1234567890",
+  "weight": 75,
+  "height": 170,
+  "bmi": 25.95,
+  "weightGoal": 70,
+  "fitnessLevel": "Intermediate",
+  "membershipStatus": "Active",
+  **"membershipType": "Gold"
+}
+
+-- workouts
+{
+  "userId": 401,
+  "workoutId": 101,
+  "date": "2025-01-14",
+  "activity": "Running",
+  "durationMinutes": 45,
+  "caloriesBurned": 300,
+  "distanceKm": 5.2,
+  "heartRateAvg": 140,
+  "heartRateMax": 160
+}
+
+-- nutrition
+{
+  "userId": 401,
+  "date": "2025-01-14",
+  "caloriesConsumed": 2000,
+  "proteinG": 120,
+  "carbsG": 250,
+  "fatG": 50,
+  "waterIntakeLiters": 2.5
+}
+
+-- progress
+
+{
+  "userId": 401,
+  "date": "2025-01-14",
+  "weight": 74.5,
+  "bodyFatPercentage": 20.5,
+  "muscleMassKg": 40.0,
+  "waistCircumferenceCm": 85
+}
+
+-- goals
+
+{
+  "userId": 401,
+  "goalId": 201,
+  "goalType": "Weight Loss",
+  "targetValue": 70,
+  "currentValue": 74.5,
+  "deadline": "2025-03-01",
+  "status": "On Track"
+}
+
+-- health metrics
+
+{
+  "userId": 401,
+  "date": "2025-01-14",
+  "restingHeartRate": 60,
+  "steps": 10000,
+  "sleepDurationHours": 7.5,
+  "bloodPressure": "120/80",
+  "oxygenSaturation": 98
+}
+
+-- challenges
+
+{
+  "challengeId": 301,
+  "userId": 401,
+  "challengeName": "10K Steps a Day",
+  "startDate": "2025-01-01",
+  "endDate": "2025-01-31",
+  "progressPercentage": 50,
+  "reward": "Badge of Dedication"
+}
+
+-- **subscription
+
+{
+  "userId": 401,
+  "subscriptionId": 601,
+  "membershipType": "Gold",
+  "pricePerMonth": 29.99,
+  "renewalDate": "2025-02-01",
+  "paymentStatus": "Paid"
+}
+
+-- leaderboard
+
+{
+  "userId": 401,
+  "rank": 1,
+  "points": 1500,
+  "totalCaloriesBurned": 50000,
+  "totalWorkouts": 120,
+  "totalSteps": 1000000
+}
