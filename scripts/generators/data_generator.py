@@ -29,7 +29,7 @@ def generate_users(count=10):
             'membership_status': random.choice(['active', 'inactive']),
         })
         #TODO: check if member is active and add membership_start_date and membership_end_date, else add date expired
-        return users
+    return users
 
 #TODO: think about this again    
 def generate_workouts(users, count=10):
